@@ -1,3 +1,5 @@
+import RecipeCard from "./components/RecipeCard";
+
 function App() {
   const cook = "abiabi";
   const photoUrl =
@@ -10,10 +12,10 @@ function App() {
         <p>{cook.toUpperCase()}'s kichen</p>
       </header>
 
-      <mian className="page">
-        <img className="hero" src={photoUrl} alt={`${cook}'s kitchen`} />
-
-        <p>tonight's special: whatever compliets.</p>
+      <mian className="page grid">
+       <RecipeCard/>
+       <RecipeCard/>
+       <RecipeCard/>
       </mian>
     </>
   );
