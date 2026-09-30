@@ -12,7 +12,7 @@ function App() {
       </header>
 
       <mian className="page grid">
-       <RecipeCard name="midnight toastie" minutes={15} difficulty="easy"/>
+       <RecipeCard name="midnight toastie" minutes={15}/>
        <RecipeCard name="noodles" minutes={20} difficulty="easy"/>
        <RecipeCard name="shiro" minutes={30} difficulty="medium"/>
       </mian>

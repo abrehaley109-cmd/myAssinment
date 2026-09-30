@@ -1,9 +1,9 @@
 
-function RecipeCard(props){
+function RecipeCard({name, minutes, difficulty = "hard"}){
     return(
         <article className="card">
-          <h2>{props.name}</h2>
-          <p>{ props.minutes} minn - {props.difficulty}</p>
+          <h2>{name}</h2>
+          <p>{ minutes} minn - {difficulty}</p>
         </article>
     )
 }
