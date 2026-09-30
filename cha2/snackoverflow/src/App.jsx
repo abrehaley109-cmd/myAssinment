@@ -2,8 +2,7 @@ import RecipeCard from "./components/RecipeCard";
 
 function App() {
   const cook = "abiabi";
-  const photoUrl =
-    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800";
+
 
   return (
     <>
@@ -13,9 +12,9 @@ function App() {
       </header>
 
       <mian className="page grid">
-       <RecipeCard/>
-       <RecipeCard/>
-       <RecipeCard/>
+       <RecipeCard name="midnight toastie" minutes={15} difficulty="easy"/>
+       <RecipeCard name="noodles" minutes={20} difficulty="easy"/>
+       <RecipeCard name="shiro" minutes={30} difficulty="medium"/>
       </mian>
     </>
   );
