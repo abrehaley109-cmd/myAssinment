@@ -1,8 +1,7 @@
 import RecipeCard from "./components/RecipeCard";
-
+import Section from "./components/section";
 function App() {
   const cook = "abiabi";
-
 
   return (
     <>
@@ -12,9 +11,14 @@ function App() {
       </header>
 
       <mian className="page grid">
-       <RecipeCard name="midnight toastie" minutes={15}/>
-       <RecipeCard name="noodles" minutes={20} difficulty="easy"/>
-       <RecipeCard name="shiro" minutes={30} difficulty="medium"/>
+        <Section title="tonights options">
+          <RecipeCard name="midnight toastie" minutes={15} />
+          <RecipeCard name="noodles" minutes={20} difficulty="easy" />
+          <RecipeCard name="shiro" minutes={30} difficulty="medium" />
+        </Section>
+        <Section title="house rules">
+          <p>whoever codes, does not wash up</p>
+        </Section>
       </mian>
     </>
   );

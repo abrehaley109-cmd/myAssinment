@@ -53,3 +53,6 @@ body {
   margin: 0;
   color: #5a6b76;
 }
+
+.section{margin-bottom: 2rem;}
+.section-title{color: #087ea4; border-bottom: 2px solid #e6f4f9; padding-bottom: 0.5rem;}
