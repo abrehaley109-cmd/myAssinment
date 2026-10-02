@@ -23,9 +23,10 @@ body {
 }
 
 .page {
-  max-width: 880px;
+  
   margin: 0 outo;
-  padding: 11.5rem;
+  padding: 6rem;
+  background-color: rgb(235, 229, 229);
 }
 .hero {
   width: 100px;
@@ -34,9 +35,11 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(outo-fill, minmax(220mx, 1fr));
+  grid-template-columns: repeat(outo-fill, minmax(220mx,1fr));
   gap: 1rem;
+
 }
+
 .card {
   position: relative;
   background: #fff;
@@ -55,8 +58,8 @@ body {
   color: #5a6b76;
 }
 
-.section{margin-bottom: 0;}
-.section-title{color: #087ea4; border-bottom: 2px solid #e6f4f9; padding-bottom: 0;}
+.section{margin-bottom: 0; background-color: rgb(254, 253, 253); display: grid; grid-template-columns:auto-fill, minmax(220px, 1fr); gap: 0.1rem; padding: 0.1rem 1.2rem; border-radius: 10px;}
+.section-title{color: #087ea4; padding-bottom: 0;}
 .badge{
   position: absolute;
   top: 0.5rem;

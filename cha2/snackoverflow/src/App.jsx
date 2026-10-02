@@ -2,17 +2,17 @@ import RecipeCard from "./components/RecipeCard";
 import Section from "./components/section";
 import { recipes } from "./data/recipes";
 function App() {
-  const cook = "abiabi";
+  const cook = "Aspiring react developer";
 
   return (
     <>
       <header className="header">
-        <h1>SnackOverflow {"\u{1f373}"}</h1>
-        <p>{cook.toUpperCase()}'s kichen</p>
+        <h1>Abiabi Mengsteab {"\u{1f373}"}</h1>
+        <p>{cook}</p>
       </header>
 
       <mian className="page grid">
-        <Section title="tonights options">
+        <section title="about me">
           <div className="grid">
             {recipes.map((recipe) => (
               <RecipeCard
@@ -24,7 +24,7 @@ function App() {
               />
             ))}
           </div>
-        </Section>
+        </section>
         <Section title="house rules">
           <p>whoever codes, does not wash up</p>
         </Section>

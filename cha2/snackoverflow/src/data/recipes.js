@@ -1,6 +1,6 @@
 export const recipes = [
-    {id: 1, name: "midnight toastie", minutes: 10, difficulty: "easy", veggie: false},
-    {id: 2, name: "deadline noodles", minutes: 15, difficulty: "easy", veggie: false},
-    {id: 3, name: "shiro", minutes: 35, difficulty: "medium", veggie: true},
-    {id: 4, name: "spagety", minutes: 45, difficulty: "hard", veggie: false}
+    {id: 1, name: "cultural food", minutes: 15, difficulty: "easy", veggie: true},
+    {id: 2, name: "habeshas food", minutes: 20, difficulty: "easy", veggie: true},
+    {id: 3, name: "shiros food", minutes: 35, difficulty: "hard", veggie: false},
+    {id: 4, name: "salatas food", minutes: 45, difficulty: "hard", veggie: false}
 ]
