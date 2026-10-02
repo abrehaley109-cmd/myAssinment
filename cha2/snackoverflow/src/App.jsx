@@ -1,5 +1,6 @@
 import RecipeCard from "./components/RecipeCard";
 import Section from "./components/section";
+import { recipes } from "./data/recipes";
 function App() {
   const cook = "abiabi";
 
@@ -12,9 +13,16 @@ function App() {
 
       <mian className="page grid">
         <Section title="tonights options">
-          <RecipeCard name="midnight toastie" minutes={15} />
-          <RecipeCard name="noodles" minutes={20} difficulty="easy" />
-          <RecipeCard name="shiro" minutes={30} difficulty="medium" />
+          <div className="grid">
+            {recipes.map((recipe) => (
+              <RecipeCard
+                key={recipe.id}
+                name={recipe.name}
+                minutes={recipe.minutes}
+                difficulty={recipe.difficulty}
+              />
+            ))}
+          </div>
         </Section>
         <Section title="house rules">
           <p>whoever codes, does not wash up</p>
