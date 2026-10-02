@@ -57,3 +57,14 @@ body {
 
 .section{margin-bottom: 0;}
 .section-title{color: #087ea4; border-bottom: 2px solid #e6f4f9; padding-bottom: 0;}
+.badge{
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: #3e8e55;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}

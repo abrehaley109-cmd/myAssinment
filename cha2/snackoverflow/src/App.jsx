@@ -20,6 +20,7 @@ function App() {
                 name={recipe.name}
                 minutes={recipe.minutes}
                 difficulty={recipe.difficulty}
+                veggie={recipe.veggie}
               />
             ))}
           </div>
